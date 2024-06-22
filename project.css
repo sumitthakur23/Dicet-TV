@@ -1,0 +1,1149 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+body {
+    margin: 0;
+    padding: 0;
+    height:510vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;    
+}
+.layer1{
+    height:95vh;
+    background-image: url(images/bg.boxing.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.layer2{ 
+    height: 95vh;
+    background-image: url(images/bg.red.png);
+}
+.header{
+    display: flex;
+}
+.left>.p1{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+.left{
+    display:flex;
+    position: relative;
+    left: 30px;
+    width: 20%;
+    margin-top: -10px;
+}
+.center{
+    position: relative;
+    left: 70px;
+    padding-top: 15px;
+}
+.center>a{
+    margin-right: 28px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.center>button{
+    margin-left: 22px;
+    width: 120px;
+    height: 40px;
+    border-radius: 23px;
+    border: 2.51px solid white;
+    background-color:transparent;
+    color:white;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: "Poppins";
+}
+.right{
+    position: relative;
+    left: 210px;
+}
+.right>img{
+    position: relative;
+    top: 30px;
+    padding-left: 13px;
+}
+.ham-menu{
+    display: none;
+}
+.header>.hamburger-items{
+    display: none;
+}
+.div-arrows{
+    padding-right: 200px;
+}
+.div-arrows>button{
+    width: 40px;
+    height: 40px;
+    border-radius: 23px;
+    border: 2.51px solid white;
+    background-color:transparent;
+    position: relative;
+    top: 205px;
+    left: 32px;
+    margin-top: 5px;
+}
+.div1{
+    width: 600px;
+}
+.div2{
+    padding-bottom: 120px;
+    width: 680px;
+}
+.div2>img{
+    position: relative;
+    top: 60px;
+    left: 45px;
+    width: 73%;
+    height: auto;
+}
+.section1{
+    display: flex;
+    height: 54vh;
+}
+.div1>h1{
+    font-size: 70px;
+    color: white;
+    font-weight: 700;
+    font-family: "Poppins";
+    margin: 0;
+}
+.div1>h3{
+    padding-top: 45px;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    font-family: "Poppins";
+    margin: 0;
+}
+.div1>h5{
+    width: 761px;
+    height: 76px;
+    font-size: 17px;
+    line-height: 28px;
+    color: white;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin: 0;
+}
+.div1>button{
+    width: 140px;
+    height: 40px;
+    border-radius: 23px;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: "Poppins";
+}
+.button1{
+    color: white; 
+    background-color: black;
+    border: 2.51px solid black;
+    position: relative;
+    top: 40px;
+}
+.button2{
+    color: black; 
+    background-color: white;
+    border: 2.51px solid white;
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+.DicetTv>.p1{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+.DicetTv{
+    display: flex;
+    position: relative;
+    left: 180px;
+    width: 20%;
+    margin-top: -140px;
+}
+.section2{
+    display: flex;
+    height: 194px;
+    padding: 0 168px;
+}
+.section2>.box1{
+    background-color: black;
+    width: 45vh;
+    padding: 16px;
+}
+.section2>.box2{
+    background-color: white;
+    width: 45vh;
+    padding: 15px;
+    padding-top: 30px;
+}
+.section2>.box3{
+    background-color: black;
+    width: 45vh;
+    padding: 15px;
+    padding-top: 30px;
+}
+.box1 img, .box2 img, .box3 img {
+    display: block;
+    margin: 0 auto;
+    width: 35px;
+    height: auto;
+}
+.section2>.box1>h2, .section2>.box2>h2, .section2>.box3>h2{
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    font-family: "Poppins";
+    line-height: 10px;
+    text-align: center;
+}
+.section2>.box1>h5, .section2>.box2>h5, .section2>.box3>h5{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align:justify;
+}
+.page2{
+    height: 82vh;
+}
+.dot1{
+    width: 30%;
+    height: auto;
+    position: relative;
+    left: -75px;
+}
+.dot2{
+    width: 30%;
+    height: auto;
+    position: relative;
+    top: 150px;
+    left: 536px;
+}
+.page2 .div1{
+    background-image: url(images/sportsteam.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 33%;
+    height: 45vh;
+    position: relative;
+    bottom: 297px;
+    left: 160px;
+}
+.page2 .div2{
+    width: 480px;
+    height: 45vh;
+    position: relative;
+    left: 645px;
+    bottom: 607px;
+}
+.page2 .div2 h1{
+    padding: 7px 0;
+    font-size: 32px;
+    color: #020907;
+    font-weight: 700;
+    font-family: "Poppins";
+    margin: 0;
+}
+.page2 .div2 h5{
+    font-size: 15px;
+    line-height: 23px;
+    color: #020907;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.page2 .div2 .button1{
+    width: 220px;
+    height: 55px;
+    background-color: #d72a18;
+    border: 1px solid #d72a18;
+    font-size: 21px;
+    color: white;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+.page2>.div2>.button2{
+    width: 260px;
+    height: 55px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    font-size: 21px;
+    color: white;
+    font-weight: 700;
+    font-family: "Poppins";
+    position: relative;
+    left: 0;
+}
+.page2>.div2>.button3{
+    width: 145px;
+    height: 43px;
+    border-radius: 32px;
+    border: 1px solid #000000;
+    background-color: #000000;
+    font-size: 13px;
+    line-height: 32px;
+    color: white;
+    font-weight: 400;
+    font-family: "Poppins";
+    position: relative;
+    top: 82px;
+}
+.page3{
+    margin-top: 100px;
+    height: 100vh;
+    background-image: url(images/black-curve.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto; 
+}
+.tariffs{
+    width: 5%;
+    height: auto;
+    position: relative;
+    left: 260px;
+    top: 60px;
+}
+.page3>h3{
+    font-size: 30px;
+    line-height: 32px;
+    color: white;
+    font-weight: 700;
+    font-family: "Poppins";
+    position: relative;
+    top: 38px;
+    left: 260px;
+    padding-bottom: 20px;
+}
+.page3>p{
+    width: 880px;
+    height: 84px;
+    font-size: 14.8px;
+    line-height: 25px;
+    color: white;
+    font-weight: 400;
+    font-family: "Poppins";
+    position: relative;
+    left: 260px;
+    margin-bottom: 0;
+}
+.page3>.outer{
+    display: flex;
+    height: 194px;
+    padding-left: 260px;
+    gap: 1.5%;
+}
+.page3>.outer>.div1, .page3>.outer>.div2, .page3>.outer>.div3{
+    width: 280px;
+    height: 210px;
+    padding: 0;
+    background-color: white;
+}
+.page3>.outer>div>h3{
+    margin: 0;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #020000;
+    background-color: white;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+.page3>.outer>div>p{
+    text-align: center;
+    background-color: #d72a18;
+    font-size: 13px;
+    color: white;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin: 0;
+}
+.page3>.outer>div>h1{
+    font-size: 32px;
+    color: #d72a18;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+    margin: 0;
+    padding: 25px 0 10px 0;
+}
+.page3>.outer>div>h4{
+    padding: 17px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #010100;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+div>h4{
+    text-align: center;
+}
+.page3>.outer>div>.button0{
+    width: 125px;
+    height: 40px;
+    border-radius: 22px;
+    background-color: white;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 80px;
+}
+.page4{
+    height: 90vh;
+    background-size: 100% auto;
+}
+.page4>h1{
+    font-size: 35px;
+    line-height: 24px;
+    color: #050400;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+}
+.map{
+    width: 75%;
+    height: auto;
+    position: relative;
+    top: 20px;
+    left: 160px;
+}
+.ellipse{
+    width: 60%;
+    height: auto;
+    position: relative;
+    top: -480px;
+    left: 280px;
+}
+.page4>h4{
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+    font-family: "Poppins";
+    position: relative;
+    top: -735px;
+}
+.page4>input{
+    background-color: white;
+    border: 1px solid white;
+    padding-left: 25px;
+    border-radius: 20px;
+    width: 42%;
+    height: 6.2%;
+    position: relative;
+    left: 375px;
+    top: -740px;
+}
+.page4>button{
+    width: 150px;
+    height: 6%;
+    border-radius: 26px;
+    background-color: #000000;
+    border: 1px solid black;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    font-family: "Poppins";
+    position: relative;
+    bottom: 740px;
+    left: 222px;
+}
+.line{
+    width: 60%;
+    height: 1px;
+    position: relative;
+    top: -350px;
+    left: 283px;
+}
+.page5{
+    width: 100%;
+    height: 680px;
+}
+.page5>h1{
+    padding-top: 70px ;
+    text-align: center;
+    font-size: 40px;
+    color: #040100;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+.ellipse4{
+    width: 11.5%;
+    height: auto;
+    position: relative;
+    top: 45px;
+    left: 300px;
+}
+.page5>.user{
+    width: 4%;
+    height: auto;
+    position: relative;
+    left: 192px;
+    top: 5px;
+}
+.page5>h2{
+    font-size: 25px;
+    line-height: 30px;
+    color: #030305;
+    font-weight: 500;
+    font-family: "Poppins";
+    position: relative;
+    top: -130px;
+    left: 500px;
+}
+.page5>p{
+    width: 46%;
+    height: auto;
+    font-size: 14px;
+    line-height: 18px;
+    color: #0b0b0c;
+    font-weight: 400;
+    font-family: "Poppins";
+    position: relative;
+    top: -140px;
+    left: 500px;
+}
+.quote{
+    width: 2%;
+    height: auto;
+    position: relative;
+    bottom: 255px;
+    left: 1080px;
+}
+.subscribe{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #d72a18;
+    padding-left: 100px;
+    position: relative;
+    bottom: 13rem;
+}
+.subscribe>.text{
+    font-size: 25px;
+    padding: 10px 0;
+    color: white;
+    font-weight: 700;
+    font-family: "Poppins";
+    position: relative;
+    left: 130px;
+}
+.subscribe>input{
+    width: 32%;
+    height: 38px;
+    border-radius: 26px;
+    padding-left: 20px;
+    border: 1px solid white;
+    background-color: white;
+    position: relative;
+    left: 164px;
+    top: 28px;
+}
+.subscribe>button{
+    width: 17%;
+    height: 36px;
+    border-radius: 26px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    font-weight: 400;
+    font-family: "Poppins";
+    position: relative;
+    left: 170px;
+    top: 30px;
+}
+section{
+    height:84vh;
+}
+footer{
+    background-color: #000000;
+    height:15%;
+    width: auto;
+}
+.h1-footer{
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+    position: relative;
+    right: 40px;
+}
+.bigdiv{
+    display: flex;
+    color: white;
+    height: 50%;
+    position: relative;
+    top: 100px;
+}
+.bigdiv>.div11{
+    width: 20%;
+    position: relative;
+    left: 120px;
+    bottom: 30px;
+}
+.bigdiv>.div2{
+    width: 20%;
+    position: relative;
+    left: 160px;
+}
+.bigdiv>.div3{
+    width: 20%;
+    position: relative;
+    left: 180px;
+}
+.bigdiv>.div4{
+    width: 20%; 
+    position: relative;
+    left: 160px;
+}
+.foot>p{
+    font-size: 17px;
+    background-color: white;
+    color: #040000;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    height: 5vh;
+    position: relative;
+    top: 210px;
+}
+.div2{
+    padding: 0;
+}
+.bigdiv>h3{
+    font-size: 17px;
+    color: #fefefe;
+    font-family: "Poppins";
+}
+.bigdiv>h2{
+    font-size: 17px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.icon{
+    display: flex;
+    height: 20%;
+    width: 20%;
+}
+.icon>img{
+    padding: 5px;
+}
+
+
+
+
+@media(max-width:600px){
+    html{
+        overflow-x: hidden;
+    }body{
+        overflow-x: hidden;
+    }
+    .layer1{
+        height:170vh;
+        background-image: url(images/bg.boxing.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .layer2{
+        height: 170vh;
+        background-image: url(images/bg.red.png);
+    }
+    .header{
+        height: 52px;
+    }
+    .left>.p1{
+        font-size: 40px;
+        color: white;
+        font-weight: 700;
+        font-family: "Poppins";
+    }
+    .left{
+        display:flex;
+        position: relative;
+        top: -20px;
+        left: 20px;
+        width: 23%;
+        margin-top: -10px;
+    }
+    .center{
+        position: relative;
+        left: 30px;
+        padding-top: 12px;
+    }
+    .center>a{
+        display: none;
+    }
+    .center>button{
+        position: relative;
+        left: 20px;
+        top: 0px;
+    }
+    .right{
+        position: relative;
+        left: 100px;
+    }
+    .right>img{
+        height: auto;
+        position: relative;
+        top: 18px;
+        padding-left: 9px;
+    }
+
+
+    .header>.hamburger-items>ul>li{
+        list-style: none;
+    }
+    .header>.hamburger-items{
+        display: flex;
+        width: 35%;
+        line-height: 2;
+        color: white;
+        height: 32vh;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        background-color: black;
+        flex-direction: column;
+        /* justify-content: center;
+        text-align: center; */
+        font-size: 1rem;
+        transition: .3s ease;
+    }
+    .ham-menu{
+        display: block;
+        height: 50px;
+        width: 50px;
+        margin-left: auto;
+        position: relative;
+    }
+    .ham-menu span{
+        height: 4px;
+        width: 60%;
+        background-color: white;
+        border-radius: 25px;
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+        transition: .3s ease;
+    }
+    .ham-menu span:nth-child(1){
+        top: 65%;
+    }
+    .ham-menu span:nth-child(3){
+        top: 82%;
+    }
+    .ham-menu.active span:nth-child(1){
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+    .ham-menu.active span:nth-child(2){
+        opacity: 0;
+    }
+    .ham-menu.active span:nth-child(3){
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+    .header>.hamburger-items.active{
+        right: 60px;
+        top: 20px;
+        z-index: 10;
+    }
+
+
+    .div-arrows{
+        padding-right: 25px;
+    }
+    .div-arrows>button{
+        width: 38px;
+        height: 38px;
+        border-radius: 23px;
+        border: 2px solid white;
+        position: relative;
+        top: 65px;
+        left: 15px;
+        margin-top: 5px;
+    }
+    .div-arrows>button>img{
+        width: 80%;
+        height: auto;
+    }
+    .div1{
+        width: 380px;
+        position: relative;
+        left: 150px;
+        bottom: 50px;
+    }
+    .div2{    
+        width: 280px;
+    }
+    .section1{
+        display: flex;
+        flex-direction: column;
+        height: 54vh;
+    }
+    .div1>h1{
+        font-size: 40px;
+    }
+    .div1>h3{
+        font-size: 30px;
+    }
+    .div1>h5{
+        width: 400px;
+        height: 36px;
+        font-size: 13px;
+        line-height: 14px;
+        display: inline;
+    }
+    .div1>button{
+        width: 140px;
+        height: 40px;
+        border-radius: 23px;
+        font-weight: 400;
+        font-size: 15px;
+        font-family: "Poppins";
+    }
+    .DicetTv>.p1{
+        font-size: 28px;
+    }
+    .DicetTv{
+        display: flex;
+        position: relative;
+        top: -25px;
+        left: 275px;
+        width: 20%;
+    }
+    .div2>img{
+        width: 110%;
+        height: auto;
+        position: relative;
+        left: 165px;
+        top: 10px;
+    }
+    .section2{
+        display: flex;
+        flex-direction: column;
+        height: 190px;
+        width: 300px;
+        padding: 0 168px;
+        position: relative;
+        top: 160px;
+        left: -35px;
+    }
+    .section2>.box1{
+        background-color: black;
+        width: 300px;
+        /* padding: 14px; */
+    }
+    .section2>.box2{
+        background-color: white;
+        width: 300px;
+        /* padding: 15px;
+        padding-top: 17px; */
+    }
+    .section2>.box3{
+        background-color: black;
+        width: 300px;
+        /* padding: 15px;
+        padding-top: 17px; */
+    }
+    .box1 img, .box2 img, .box3 img {
+        display: block;
+        margin: 0 auto;
+        width: 22px;
+        height: auto;
+    }
+    .section2>.box1>h2, .section2>.box2>h2, .section2>.box3>h2{
+        font-size: 20px;
+        line-height: 10px;
+    }
+    .section2>.box1>h5, .section2>.box2>h5, .section2>.box3>h5{
+        font-size: 13px;
+    }
+    .page2{
+        height: 82vh;
+        padding-bottom: 250px;
+    }
+    .dot1{
+        width: 30%;
+        height: auto;
+        position: relative;
+        left: 0px;
+    }
+    .dot2{
+        width: 30%;
+        height: auto;
+        position: relative;
+        top: 560px;
+        left: 256px;
+    }
+    .page2 .div1{
+        width: 70%;
+        height: 45vh;
+        position: relative;
+        top: -150px;
+        left: 85px;
+    }
+    .page2 .div2{
+        width: 480px;
+        height: 45vh;
+        position: relative;
+        left: 70px;
+        top: -120px;
+    }
+    .page2 .div2 h1{
+        padding: 7px 0;
+        font-size: 30px;
+    }
+    .page2>.div2>.button3{
+        position: relative;
+        left: 150px;
+    }
+    .page3{
+        margin-top: 30px;
+        width: 200vh;
+        height: 280vh;
+        background-size: 100% 68%; 
+    }
+    .tariffs{
+        position: relative;
+        left: 200px;
+        top: 30px;
+    }
+    .page3>h3{
+        position: relative;
+        top: 3px;
+        left: 180px;
+    }
+    .page3>p{
+        width: 470px;
+        height: 84px;
+        position: relative;
+        top: -40px;
+        left: 70px;
+    }
+    .page3>.outer{
+        height: 194px;
+        padding-left: 50px;
+        width: 500px;
+        display: flex;
+    }
+    .page3>.outer>.div1, .page3>.outer>.div2, .page3>.outer>.div3{
+        width: 80%;
+        height: 210px;
+    }
+    .outer>.div1{
+        position: relative;
+        left: 180px;
+        top: -30px;
+    }
+    .outer>.div2{
+        position: relative;
+        left: 10px;
+        top: 250px;
+    }
+    .outer>.div3{
+        position: relative;
+        right: 155px;
+        top: 530px;
+    }
+    .page3>.outer>div>h1{
+        line-height: 20px;
+    }
+    .page3>.outer>div>h4{
+        line-height: 23px;
+    }
+    .page3>.outer>div>.button0{
+    width: 90px;
+    height: 30px;
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+    left: 35px;
+    }
+    .page4{
+        position: relative;
+        top: -400px;
+    }
+    .page4>h1{
+        font-size: 25px;
+        position: relative;
+        top: -180px;
+    }
+    .map{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: -180px;
+        left: 0px;
+    }
+    .ellipse{
+        width: 90%;
+        height: auto;
+        position: relative;
+        top: -460px;
+        left: 32px;
+    }
+    .page4>h4{
+        font-size: 12px;
+        position: relative;
+        top: -620px;
+    }
+    .page4>input{
+        position: relative;
+        left: 150px;
+        top: -640px;
+    }
+    .page4>button{
+        width: 120px;
+        font-size: 12px;
+        position: relative;
+        bottom: 641px;
+        left: 27px;
+    }
+    .line{
+        position: relative;
+        top: -400px;
+        left: 120px;
+    }
+    .page5{
+        width: 100%;
+        height: 500px;
+        position: relative;
+        top: -730px;
+    }
+    .ellipse4{
+        width: 12%;
+        height: auto;
+        position: relative;
+        top: 20px;
+        left: 100px;
+    }
+    .page5>.user{
+        width: 5%;
+        height: auto;
+        position: relative;
+        left: 45px;
+        top: 5px;
+    }
+    .page5>h2{
+        font-size: 25px;
+        position: relative;
+        top: -80px;
+        left: 200px;
+    }
+    .page5>p{
+        width: 60%;
+        height: auto;
+        position: relative;
+        top: -90px;
+        left: 200px;
+    }
+    .quote{
+        width: 5%;
+        height: auto;
+        position: relative;
+        bottom: 265px;
+        left: 520px;
+    }
+    .subscribe{
+        position: relative;
+        bottom: 51rem;
+        padding-left: 0;
+    }
+    .subscribe>.text{
+        font-size: 25px;
+        position: relative;
+        left: 40px;
+    }
+    .subscribe>input{
+        width: 32%;
+        height: 38px;
+        position: relative;
+        left: 64px;
+        top: 28px;
+    }
+    .subscribe>button{
+        width: 22%;
+        height: 36px;
+        position: relative;
+        left: 73px;
+        top: 30px;
+    }
+    section{
+        height: 0;
+    }
+    footer{
+        position: relative;
+        top: -220px;
+    }
+    .h1-footer{
+        font-size: 25px;
+        position: relative;
+        top: -20px;
+        right: 10px;
+    }
+    .bigdiv>.div11{
+        width: 20%;
+        position: relative;
+        left: 35px;
+        bottom: 50px;
+    }
+    .bigdiv>.div2{
+        width: 20%;
+        position: relative;
+        left: 65px;
+    }
+    .bigdiv>.div3{
+        width: 20%;
+        position: relative;
+        left: 90px;
+    }
+    .bigdiv>.div4{
+        width: 20%; 
+        position: relative;
+        left: 105px;
+    }
+    .bigdiv>.div11>h2,.bigdiv>.div2>h2,.bigdiv>.div3>h2,.bigdiv>.div4>h2{
+        font-size: 15px;
+    }
+    .bigdiv>.div11>h3,.bigdiv>.div2>h3,.bigdiv>.div3>h3,.bigdiv>.div4>h3{
+        font-size: 12px;
+    }
+    .foot>p{
+        font-size: 17px;
+        background-color: white;
+        position: relative;
+        top: -180px;
+    }
+    footer.foot{
+        height: 0;
+        position:relative;
+        top: 300px;
+    }
+    .icon{
+        position:relative;
+        top: 10px;
+        right: 60px;
+    }
+
+}
+
+
+
+
+
